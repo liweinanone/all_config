@@ -1,0 +1,57 @@
+{
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.smartRelativeLine": false,
+    "vim.useSystemClipboard": true,
+    "vim.sneak": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<tab>"],
+            "commands": ["workbench.action.nextEditor"]
+        },
+        {
+            "before": ["<S-tab>"],
+            "commands": ["workbench.action.previousEditor"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "n"],
+            "commands": [":nohl"]
+        },
+        {
+            "before": ["<leader>", "w"],
+            "commands": ["workbench.action.splitEditor"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "commands": ["workbench.action.toggleSidebarVisibility"]
+        },
+        {
+            "before": ["<leader>", "f"],
+            "commands": ["revealInExplorer"]
+        },
+        {
+            "before": ["<leader>", "h"],
+            "after": ["_"]
+        },
+        {
+            "before": ["<leader>", "l"],
+            "after": ["$"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-x>": false,
+        "<C-f>": false,
+        "<C-d>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-z>": false,
+        "<C-y>": false,
+        "<C-t>": false,
+        "<C-s>": false
+    }
+}
