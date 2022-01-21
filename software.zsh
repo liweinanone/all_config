@@ -20,7 +20,9 @@ thyme
 brew install \
 lua \
 zinit \
-starship
+starship \
+typescript \
+rust
 # something else:
 # file finder: fzf
 
